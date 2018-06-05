@@ -1,0 +1,339 @@
+@font-face {
+    font-family: PlayfairDisplay-Regular;
+    src: url(/minimo_design/assets/FONTS/Playfair_Display/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: Ubuntu-Light;
+    src: url(/minimo_design/assets/FONTS/Ubuntu/Ubuntu-Light.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+nav::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 1062px;
+    margin: 0 auto;
+}
+
+header {
+    padding-top: 54px;
+    padding-bottom: 54px;  
+}
+
+header img{
+    float: left; 
+}
+
+header nav{
+    float: right;
+}
+
+header nav ul{
+   list-style: none;
+}
+
+header nav ul li{
+    float: left;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: PlayfairDisplay-Regular;
+}
+
+header nav ul li a:nth-child(1){
+    padding-left: 120px;
+}
+
+header nav ul li a:nth-child(2){
+    padding-left: 120px;
+}
+
+header nav ul li a:nth-child(3){
+    padding-left: 120px;
+}
+
+.main_article{
+    padding: 100px 0;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.main_article p:nth-child(1){
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Ubuntu-Light;
+    color: #b4ad9e;
+}
+
+.main_article p:nth-child(2){
+    font-size: 30px;
+    font-family: PlayfairDisplay-Regular;
+    color: #626262;
+    padding-top: 18px;
+}
+
+
+.main_article p:nth-child(3){
+    font-size: 14px;
+    font-family: PlayfairDisplay-Regular;
+    color: #626262;
+    padding-top: 30px;
+}
+
+.main_article p:nth-child(4){
+    padding-top: 50px;
+}
+
+.main_article p a {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Ubuntu-Light;
+    color: #b4ad9e;
+    padding-top: 50px;
+    text-decoration: none;
+}
+
+.top_articles ul{
+    list-style: none;
+}
+
+.top_articles ul li{
+    float: left;
+    width: 45%;
+}
+
+.top_articles ul li:nth-child(odd){
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.top_articles ul li:nth-child(1){
+    padding-bottom: 125px;
+
+}
+
+.top_articles ul li:nth-child(2){
+    padding-bottom: 125px;
+
+}
+
+.top_articles ul li:nth-child(3){
+    clear: left;
+}
+
+.top_articles ul li p:nth-child(4){
+    width: 90%;
+}
+
+.top_articles ul li p:nth-child(2){
+    text-transform: uppercase;
+    color: #b4ad9e;
+    font-size: 14px;
+    font-family: Ubuntu-Light;
+    padding: 23px 0;
+}
+
+.top_articles ul li p:nth-child(3){
+    font-size: 30px;
+    color: #626262;
+    font-family: PlayfairDisplay-Regular;
+    padding-bottom: 36px;
+}
+
+.top_articles ul li p:nth-child(4){
+    font-size: 14px;
+    font-family: PlayfairDisplay-Regular;
+    color: #777777;
+}
+
+.top_articles::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.subscription{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: #f0f0f0;
+    text-align: center;
+}
+
+.subscription p{
+    font-size: 30px;
+    font-family: PlayfairDisplay-Regular;
+    padding-bottom: 80px;
+}
+
+.subscription input{
+    border: none;
+    background: #f0f0f0;
+    border-bottom: solid black 1px;
+    width: 400px;
+    height: 30px;
+}
+
+.subscription input::placeholder{
+    padding-bottom: 2px;
+    font-size: 14px;
+    font-family: PlayfairDisplay-Regular;
+}
+
+.sign_up{
+    position: relative;
+    display: inline;
+}
+
+.subscription img{
+    position: absolute;
+    bottom: 2px;
+    right: 5px;
+    
+}
+
+.bottom_articles ul {
+    list-style: none;
+}
+
+.bottom_articles ul li{
+    float: left;
+    width: 45%;
+}
+
+.bottom_articles ul li:nth-child(odd){
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.bottom_articles ul li p:nth-child(2){
+    text-transform: uppercase;
+    color: #b4ad9e;
+    font-size: 14px;
+    font-family: Ubuntu-Light;
+    padding: 23px 0;
+}
+
+.bottom_articles ul li p:nth-child(3){
+    font-size: 30px;
+    color: #626262;
+    font-family: PlayfairDisplay-Regular;
+    padding-bottom: 36px;
+}
+
+.bottom_articles ul li p:nth-child(4){
+    font-size: 14px;
+    font-family: PlayfairDisplay-Regular;
+    color: #777777;
+    width: 90%;
+}
+
+.bottom_articles{
+    padding-top: 105px;
+    padding-bottom: 170px;
+
+}
+
+.bottom_articles::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.load_more_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 165px;
+    margin: 0 auto;
+    height: 60px;
+    border: solid #626262 1px;
+}
+
+.load_more_button p{
+    font-size: 20px;
+    font-family: PlayfairDisplay-Regular;
+}
+
+.button{
+    text-decoration: none;
+    color: #626262;
+}
+
+footer{
+    background: #f0f0f0;
+    height: 100px;
+}
+
+.wrapper{
+    padding-bottom: 150px;
+}
+
+footer .wrapper{
+    padding-bottom: 0px;
+}
+
+.terms{
+    float: left;
+    width: 50%;
+    padding-top: 40px;
+}
+
+.terms ul li{
+    float: left;
+    padding-right: 20px;
+    font-size: 14px;
+    font-family: PlayfairDisplay-Regular;
+}
+
+.terms ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.terms ul {
+    list-style: none;
+}
+
+.socials{
+    float: left;
+    padding-top: 40px;
+    width: 50%;
+}
+
+.socials ul{
+    list-style: none;
+}
+
+.socials ul li{
+    float: right;
+    padding-right: 20px;
+    font-size: 14px;
+    font-family: PlayfairDisplay-Regular;
+}
+
+
+
+
+
+
+
+
+
+

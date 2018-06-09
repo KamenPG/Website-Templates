@@ -1,0 +1,513 @@
+@font-face {
+    font-family: Raleway-Thin;
+    src: url(/quotes_design/assets/fonts/Raleway/Raleway-Thin.ttf);
+}
+
+@font-face {
+    font-family: Raleway-Bold;
+    src: url(/quotes_design/assets/fonts/Raleway/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(/quotes_design/assets/fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(/quotes_design/assets/fonts/Montserrat/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Raleway-ExtraLight;
+    src: url(/quotes_design/assets/fonts/Raleway/Raleway-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: Raleway-Bold;
+    src: url(/quotes_design/assets/fonts/Raleway/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: Raleway-SemiBold;
+    src: url(/quotes_design/assets/fonts/Raleway/Raleway-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Raleway-Medium;
+    src: url(/quotes_design/assets/fonts/Raleway/Raleway-Medium.ttf);
+}
+
+@font-face {
+    font-family: Raleway-Light;
+    src: url(/quotes_design/assets/fonts/Raleway/Raleway-Light.ttf);
+}
+
+@font-face {
+    font-family: Raleway-Italic;
+    src: url(/quotes_design/assets/fonts/Raleway/Raleway-Italic.ttf);
+}
+
+@font-face {
+    font-family: Raleway-Regular;
+    src: url(/quotes_design/assets/fonts/Raleway/Raleway-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.wrapper{
+    overflow-x: hidden;
+}
+
+header{
+    background: url(/quotes_design/assets/images/top_banner.jpg);
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}   
+
+header .logo{
+    float: left;
+}
+
+header .menu{
+    float: right;
+}
+
+header .nav.closed::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+header .nav.closed{
+    padding-top: 50px;
+}
+
+header h2{
+    float: right;
+    color: white; 
+    font-size: 64px;
+    font-family: Raleway-Bold; 
+    text-align: center;
+    padding-top: 200px;
+}
+
+
+header h2 span{
+    color: white; 
+    text-transform: uppercase;
+    font-size: 220px;
+    font-family: Raleway-Thin;
+}
+
+header .wrapper{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.owl-dots{
+    padding-top: 200px;
+}
+
+div.nav.opened.unclicked{
+    display: none;
+}
+
+div.nav.opened.clicked{
+    position: absolute;
+    width: 100%;
+    color: white;
+    background: black;
+    opacity: 0.9;
+    top: 0;
+    height: 1000px;
+    z-index: 10;
+}
+
+div.nav.opened.clicked ul{
+    float: left;
+    list-style: none;
+    padding-left: 300px;
+    padding-top: 180px;
+}
+
+div.nav.opened.clicked ul li a{
+    text-decoration: none;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #626262;
+    font-family: Montserrat-Bold;
+    letter-spacing: 5px;
+}
+
+div.nav.opened.clicked ul li a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
+div.nav.opened.clicked ul li{
+    padding-bottom: 15px;
+}
+
+div.nav.opened.clicked img{
+    float: right;
+    padding-top: 40px;
+    padding-right: 90px;
+}
+
+.website-description{
+    text-align: center;
+}
+
+.website-description.header1{
+    font-size: 60px;
+    padding-top: 90px;
+    font-family: Raleway-ExtraLight;
+}
+
+.website-description.header2{
+    font-size: 60px;
+    font-family: Raleway-Bold;
+}
+
+.website-description.header3{
+    font-size: 20px;
+    font-family: Raleway-SemiBold;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.content1{
+    font-size: 20px;
+    font-family: Raleway-Medium;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.content2{
+    font-size: 20px;
+    font-family: Raleway-Medium;
+    padding-bottom: 100px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.random-quotes img{
+    float: right;
+    width: 50%;
+}
+
+.random-quotes .top-quotes{
+  float: left;
+  width: 50%;
+  padding-bottom: 30px; 
+}
+
+.random-quotes::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.random-quotes{
+    background: #ffe9e2;
+}
+
+.random-quotes .wrapper{
+    overflow: unset;
+}
+
+.top-quotes .quote{
+    font-size: 36px;
+    font-family: Raleway-Bold;
+    width: 510px;
+    padding-top: 140px;
+    padding-bottom: 60px;
+}
+
+.top-quotes .author{
+    font-size: 36px;
+    font-family: Raleway-Light;
+}
+
+.top-quotes .owl-dots {
+    padding-top: 50px;
+    float: left;
+}
+
+.reasons .section-title{
+    padding-top: 130px;
+    font-size: 60px;
+    font-family: Raleway-Bold;
+}
+
+.reasons .section-quotes ul li{
+    float: left;
+    width: 49.8%;
+    border: solid 1px #eae9e7;
+}
+
+.reasons .section-quotes ul{
+   list-style: none;
+}
+
+.reasons .section-quotes{
+    padding-top: 100px;
+}
+
+.reasons .section-quotes::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.reasons .section-quotes ul li{
+    height: 288px;
+    padding-top: 50px;
+}
+
+.reasons .section-quotes ul li .quote-title{
+    font-family: Raleway-Bold;
+    text-transform: uppercase;
+    font-size: 25px;
+    width: 550px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.reasons .section-quotes ul li .quote-content{
+    font-size: 20px;
+    font-family: Raleway-Medium;
+    width: 550px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.reasons .section-quotes ul li .quote-author{
+    font-size: 20px;
+    font-family: Raleway-Italic;
+    width: 550px;
+    margin: 0 auto;
+}
+
+.btn.see-more{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 140px;
+
+}
+
+.btn.see-more a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 20px;
+    font-family: Montserrat-Bold;
+    border: solid black;
+    padding: 15px;
+    border-radius: 3px; 
+    letter-spacing: 2px;
+}
+
+.quote-of-the-day{
+    background: url(/quotes_design/assets/images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+}
+
+.quote-of-the-day .content{
+    color: white;
+    font-size: 64px;
+    font-family: Raleway-Bold;
+    width: 890px;
+    margin: 0 auto;
+    padding-top: 200px;
+    padding-bottom: 65px;
+}
+
+
+.quote-of-the-day .author{
+    font-size: 20px;
+    font-family: Raleway-Regular;
+    color: white;
+    padding-bottom: 160px;
+}
+
+.quote-of-the-day .author a{
+    color: white;
+}
+
+.posters{
+    background: #f2f4f5;
+    padding-top: 100px;
+}
+
+.posters .section-title{
+    font-size: 60px;
+    font-family: Raleway-Bold;
+}
+
+.top-poster{
+    float: left;
+    width: 30%;
+    padding-top: 100px;
+
+}
+
+.other-posters{
+    text-align: right;
+    float: right;
+    width: 50%;
+    padding-top: 100px;
+
+}
+
+.other-posters img:nth-child(1){
+    padding-bottom: 45px;
+}
+
+
+.other-posters a:nth-child(2) img{
+    float: left;
+}
+
+.top-posters::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.top-footer ul{
+    float: left;
+    width: 14%;
+    list-style: none;
+    padding-top: 125px;
+}
+
+.top-footer ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.top-footer ul li{
+    letter-spacing: 2px;
+}
+
+.top-footer ul:nth-child(2){
+    padding: 0 15%;
+    padding-top: 125px;
+}
+
+.top-footer ul:nth-child(3){
+    padding-right:14%;
+}
+
+.top-footer::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.footer-title {
+    font-size: 20px;
+    font-family: Montserrat-Bold;
+    text-transform: uppercase;
+    padding-bottom: 60px;
+}
+
+.top-footer ul li {
+    padding-bottom: 20px;
+}
+
+.top-footer ul li:not(.footer-title) {
+    font-size: 18px;
+    font-family: Montserrat-Regular;
+
+}
+
+.top-footer ul li:nth-child(1) {
+    padding-bottom: 60px;
+}
+
+.top-footer ul li input {
+    height: 30px;
+    border: none;
+    background: #f2f4f5;
+    margin-bottom: 10px;
+}
+
+.top-footer ul li input::placeholder {
+    padding-left: 10px;
+    color: #c9c7c2;
+    font-size: 15px;
+    font-family: Montserrat-Regular;
+
+}
+
+.btn.submit a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 15px;
+    font-family: Montserrat-Bold;
+    border: solid black;
+    padding: 10px;
+    border-radius: 3px; 
+    letter-spacing: 2px;
+}
+
+
+.bottom-footer{
+    background: #f2f4f5;
+    margin-top: 90px;
+    padding-top: 38px;
+    padding-bottom: 38px;
+}
+
+.copyright{
+    float: left;
+    font-size: 16px;
+    font-family: Montserrat-Regular;
+}
+
+.socials{
+    float: right;
+    list-style: none;
+}
+
+.socials li{
+    float: left;
+}
+
+.socials li:not(.last-link){
+    padding-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

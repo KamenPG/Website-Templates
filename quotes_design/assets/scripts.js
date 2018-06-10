@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    //slider settup
+    //slider setup
     $(".owl-carousel").owlCarousel({
         items : 1,
         loop: true,
@@ -9,7 +9,7 @@ $(document).ready(function(){
         autoplayTimeout:4000
     });
 
-    //dropdown menu settup
+    //dropdown menu setup
     $( ".open" ).click(function() {
         $("div.nav.opened.unclicked").removeClass("unclicked").addClass("clicked");
       });
